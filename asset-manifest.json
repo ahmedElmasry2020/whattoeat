@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/whattoeat/static/css/main.77d389ae.chunk.css",
+    "main.js": "/whattoeat/static/js/main.f70fffcd.chunk.js",
+    "main.js.map": "/whattoeat/static/js/main.f70fffcd.chunk.js.map",
+    "runtime-main.js": "/whattoeat/static/js/runtime-main.eb9870c6.js",
+    "runtime-main.js.map": "/whattoeat/static/js/runtime-main.eb9870c6.js.map",
+    "static/js/2.6802c638.chunk.js": "/whattoeat/static/js/2.6802c638.chunk.js",
+    "static/js/2.6802c638.chunk.js.map": "/whattoeat/static/js/2.6802c638.chunk.js.map",
+    "index.html": "/whattoeat/index.html",
+    "precache-manifest.b275446e52991af428e78ff0664f0e63.js": "/whattoeat/precache-manifest.b275446e52991af428e78ff0664f0e63.js",
+    "service-worker.js": "/whattoeat/service-worker.js",
+    "static/css/main.77d389ae.chunk.css.map": "/whattoeat/static/css/main.77d389ae.chunk.css.map",
+    "static/js/2.6802c638.chunk.js.LICENSE.txt": "/whattoeat/static/js/2.6802c638.chunk.js.LICENSE.txt",
+    "static/media/not-found.png": "/whattoeat/static/media/not-found.6f454a65.png",
+    "static/media/plates-four.png": "/whattoeat/static/media/plates-four.5b15ff76.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eb9870c6.js",
+    "static/js/2.6802c638.chunk.js",
+    "static/css/main.77d389ae.chunk.css",
+    "static/js/main.f70fffcd.chunk.js"
+  ]
+}
