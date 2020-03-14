@@ -1,0 +1,203 @@
+@import "./colors.scss";
+
+.wrapper {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.bold {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: $dark_orange;
+}
+
+.App {
+    position: relative;
+    min-height: 100vh;
+}
+
+header {
+    background-color: $orange;
+    height: 70px;
+    .search-form {
+        width: 400px;
+        float: left;
+        padding-top: 1em;
+        height: 45px;
+        .form-input {
+            background-color: $dark_orange;
+            border-radius: 25px;
+            padding: 5px 5px;
+            display: grid;
+            grid-template-columns: 0.1fr 1fr 0.25fr;
+            grid-gap: 5px;
+            border: 1px solid $dark_orange;
+            input {
+                background-color: transparent;
+                border: none;
+                color: white;
+                font-size: 11pt;
+                outline: none;
+                &::placeholder {
+                    color: rgba($light_orange, 0.6);
+                }
+            }
+            button {
+                padding: 5px;
+                background-color: $light_orange;
+                border: none;
+                border-radius: 25px;
+                color: $dark_orange;
+                text-transform: uppercase;
+                font-weight: bold;
+                outline: none;
+                &:hover {
+                    cursor: pointer;
+                    transform: scale(1.01);
+                    opacity: 0.9;
+                }
+            }
+        }
+    }
+    .suggestions {
+        width: 100px;
+        float: right;
+        padding-top: 1em;
+        button {
+            padding: 7.55px 15px;
+            background-color: $dark_orange;
+            border: 3px solid $light_orange;
+            border-radius: 25px;
+            color: $light_orange;
+            text-transform: uppercase;
+            font-weight: bold;
+            outline: none;
+            &:hover {
+                cursor: pointer;
+                transform: scale(1.01);
+                opacity: 0.9;
+            }
+        }
+    }
+}
+
+#description {
+    padding-top: 2em;
+    padding-bottom: 5em;
+    .description-img {
+        text-align: center;
+        img {
+            max-width: 90%;
+        }
+    }
+    .description-text {
+        text-align: center;
+        margin-top: 2em;
+        h1 {
+            font-size: 24pt;
+            font-weight: bold;
+            font-family: "Ubuntu";
+            margin-bottom: 20px;
+            color: $dark_orange;
+            letter-spacing: 2px;
+        }
+        h3 {
+            font-size: 14pt;
+            margin-bottom: 15px;
+            color: $orange;
+        }
+        ul {
+            line-height: 20pt;
+            font-size: 12pt;
+        }
+    }
+}
+
+#recipes {
+    margin-top: 2em;
+    padding-bottom: 5em;
+    .search-info {
+        text-align: center;
+    }
+    .list-recipes {
+        margin: 0 auto;
+        padding-top: 2em;
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 250px));
+        grid-template-rows: repeat(250px);
+        justify-content: center;
+        align-content: center;
+        margin-bottom: 3em;
+    }
+    .pagination-container {
+        margin-bottom: 2em;
+    }
+}
+
+footer {
+    width: 100%;
+    background-color: $orange;
+    height: 70px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    .copyright {
+        float: left;
+        padding-top: 1.75em;
+    }
+    .back-home {
+        float: right;
+        padding-top: 10px;
+        button {
+            width: 50px;
+            height: 50px;
+            border: 2px solid $dark_orange;
+            border-radius: 50%;
+            padding: 10px;
+            background-color: $light_orange;
+            outline: none;
+            font-size: 14pt;
+            &:hover {
+                cursor: pointer;
+                transform: scale(1.01);
+                opacity: 0.9;
+            }
+        }
+    }
+}
+
+/** Media Queries **/
+@media only screen and (max-width: 449px){
+    header{
+        height: 120px;
+        text-align: center;
+        margin: 0 auto;
+        .search-form{
+            width: 260px;
+            margin: 0 auto;
+            float: none;
+        }
+        .suggestions{
+            float: none;
+            margin: 0 auto;
+            padding-top: 0.5em;
+        }
+    }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 570px) {
+    header{
+        height: 130px;
+        text-align: center;
+        margin: 0 auto;
+        .search-form{
+            margin: 0 auto;
+            float: none;
+        }
+        .suggestions{
+            float: none;
+            margin: 0 auto;
+        }
+    }
+}

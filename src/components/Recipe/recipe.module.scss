@@ -1,0 +1,39 @@
+@import '../../colors.scss';
+
+.recipe {
+    background-color: white;
+    border: 0.51px solid rgba($color: #000000, $alpha: 0.09);
+    .image {
+        width: 100%;
+        overflow: hidden;
+        height: 160px;
+        img {
+            max-width: 100%;
+            margin-top: -40px;
+        }
+    }
+    .info {
+        width: 250px;
+        height: 85px;
+        .content {
+            margin-top: 10px;
+            line-height: 18pt;
+            width: 100%;
+            text-align: center;
+            .title {
+                color: $orange;
+                font-size: 10pt;
+                font-weight: bold;
+                text-transform: capitalize;
+            }
+            .diet_type, .calories {
+                font-size: 9pt;
+                
+            }
+        }
+    }
+    &:hover{
+        transform: scale(1.05);
+        box-shadow: 0 0 5px rgba($color: #000000, $alpha: 0.3);
+    }
+}
