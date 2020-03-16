@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ca75643772932baf00299b7f6c6e4768",
+    "revision": "83e7c70927a5ffc28b866a4ef13c43a9",
     "url": "/whattoeat/index.html"
   },
   {
-    "revision": "5f1e4d4be2b3e109b212",
-    "url": "/whattoeat/static/css/main.77d389ae.chunk.css"
+    "revision": "82d42c6610595ec7a1df",
+    "url": "/whattoeat/static/css/main.a21ab718.chunk.css"
   },
   {
     "revision": "7e6c89c0d3189c6fe650",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/whattoeat/static/js/2.6802c638.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5f1e4d4be2b3e109b212",
+    "revision": "82d42c6610595ec7a1df",
     "url": "/whattoeat/static/js/main.f70fffcd.chunk.js"
   },
   {
