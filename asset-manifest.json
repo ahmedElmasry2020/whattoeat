@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/whattoeat/static/css/main.a21ab718.chunk.css",
-    "main.js": "/whattoeat/static/js/main.f70fffcd.chunk.js",
-    "main.js.map": "/whattoeat/static/js/main.f70fffcd.chunk.js.map",
+    "main.css": "/whattoeat/static/css/main.9dfb6830.chunk.css",
+    "main.js": "/whattoeat/static/js/main.d5cb56c8.chunk.js",
+    "main.js.map": "/whattoeat/static/js/main.d5cb56c8.chunk.js.map",
     "runtime-main.js": "/whattoeat/static/js/runtime-main.eb9870c6.js",
     "runtime-main.js.map": "/whattoeat/static/js/runtime-main.eb9870c6.js.map",
     "static/js/2.6802c638.chunk.js": "/whattoeat/static/js/2.6802c638.chunk.js",
     "static/js/2.6802c638.chunk.js.map": "/whattoeat/static/js/2.6802c638.chunk.js.map",
     "index.html": "/whattoeat/index.html",
-    "precache-manifest.50f4f7c457439ceb5a117d208a4220cd.js": "/whattoeat/precache-manifest.50f4f7c457439ceb5a117d208a4220cd.js",
+    "precache-manifest.c592742e0c48dc2c3ac3c6484a09101b.js": "/whattoeat/precache-manifest.c592742e0c48dc2c3ac3c6484a09101b.js",
     "service-worker.js": "/whattoeat/service-worker.js",
-    "static/css/main.a21ab718.chunk.css.map": "/whattoeat/static/css/main.a21ab718.chunk.css.map",
+    "static/css/main.9dfb6830.chunk.css.map": "/whattoeat/static/css/main.9dfb6830.chunk.css.map",
     "static/js/2.6802c638.chunk.js.LICENSE.txt": "/whattoeat/static/js/2.6802c638.chunk.js.LICENSE.txt",
     "static/media/not-found.png": "/whattoeat/static/media/not-found.6f454a65.png",
     "static/media/plates-four.png": "/whattoeat/static/media/plates-four.5b15ff76.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.eb9870c6.js",
     "static/js/2.6802c638.chunk.js",
-    "static/css/main.a21ab718.chunk.css",
-    "static/js/main.f70fffcd.chunk.js"
+    "static/css/main.9dfb6830.chunk.css",
+    "static/js/main.d5cb56c8.chunk.js"
   ]
 }
