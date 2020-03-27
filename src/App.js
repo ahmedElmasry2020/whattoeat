@@ -32,7 +32,6 @@ const App = () => {
     const getDataSearch = e => {
         e.preventDefault();
         setIngredientQuery(ingredientSearch);
-        console.log(ingredientSearch);
         if (ingredientSearch === "") {
             alert("Please enter at least ONE ingredient");
         }

@@ -5,6 +5,13 @@
         display:inline;
     }
     text-align: center;
+    button{
+        outline: none;
+        background: transparent;
+        border: none;
+        width: 35px;
+        cursor: pointer;
+    }
     .page_number{
         margin-right: 1em;
         background-color: $orange;
@@ -13,8 +20,8 @@
         border-radius: 5px;
         color: white;
         &:hover{
-            
             background-color: $dark_orange;
         }
     }
 }
+
